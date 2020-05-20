@@ -17,8 +17,8 @@ const ConcurrencyCount = 4
 
 func main() {
 	if len(os.Args) != 3 && len(os.Args) != 4 {
-		fmt.Fprintln(os.Stderr, "Usage: flood <game pin> <nickname prefix> <count>")
-		fmt.Fprintln(os.Stderr, "       flood <game pin> <name_list.txt>")
+		fmt.Fprintln(os.Stderr, "Usage: flood <3853269> <gee 49> <43>")
+		fmt.Fprintln(os.Stderr, "       flood <3853269> <name_list.txt>")
 		os.Exit(1)
 	}
 
